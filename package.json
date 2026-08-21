@@ -1,0 +1,11 @@
+{
+  "name": "pi-be-terse",
+  "version": "0.1.0",
+  "description": "Keep pi's responses terse via a before_agent_start hook, ported from the be-terse Claude Code plugin. No dependencies, no telemetry.",
+  "keywords": ["pi-package", "terse", "style"],
+  "license": "MIT",
+  "repository": "https://github.com/rohaquinlop/pi-be-terse",
+  "pi": {
+    "extensions": ["./extensions/be-terse/index.ts"]
+  }
+}
